@@ -1,0 +1,49 @@
+input {
+  margin: .25rem;
+}
+
+.input {
+  --box-shadow: 0 0 50px 0;
+  --border-color: #AAA;
+
+  border: 1px solid var(--border-color);
+  outline: none;
+  font-size: inherit;
+  padding: .5em;
+  border-radius: .2em;
+}
+
+.input:focus {
+  --border-color: #0AF;
+  box-shadow: var(--box-shadow) #0AF;
+}
+
+.input.input-success {
+  --border-color: #27AE60;
+}
+
+.input.input-success:focus {
+  --border-color: #0F0;
+  box-shadow: var(--box-shadow) var(--border-color);
+}
+
+.input.input-error {
+  --border-color: #EB5757;
+}
+
+.input.input-error:focus {
+  --border-color: #F00;
+  box-shadow: var(--box-shadow) var(--border-color);
+}
+
+.input.input-large {
+  font-size: 1.25rem;
+}
+
+.input.input-small {
+  font-size: .75rem;
+}
+
+.input:disabled {
+  background-color: #EAEAEA;
+}
