@@ -1,0 +1,16 @@
+:root {
+    --primary-color: green;
+    --primary-font-size: 2rem;
+    --margin: 10px;
+    --spacer: 10;
+}
+
+
+h2 {
+    font-size: calc(var(--spacer)*10px);
+    margin: calc(1rem + 20px);
+}
+
+p {
+    margin: calc(var(--margin)* 10);
+}

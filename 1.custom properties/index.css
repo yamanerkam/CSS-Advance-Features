@@ -1,0 +1,20 @@
+:root {
+    --primary-color: green;
+    --primary-font-size: 2rem;
+}
+
+h1 {
+    --primary-color: blue;
+    background-color: var(--primary-color);
+}
+
+h2 {
+    background-color: var(--primary-color);
+    font-size: var(--primary-font-size);
+    color: white;
+}
+
+p {
+    margin: var(--margin, 80px);
+    color: var(--primary-color)
+}
