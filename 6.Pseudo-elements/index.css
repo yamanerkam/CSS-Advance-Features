@@ -1,0 +1,81 @@
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.box::before {
+    display: block;
+    content: 'hi';
+    width: 75px;
+    height: 75px;
+    background-color: aqua;
+}
+
+.box::after {
+    display: block;
+    content: 'bye';
+    width: 75px;
+    height: 75px;
+    background-color: burlywood;
+}
+
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.box::before {
+    display: block;
+    content: 'hi';
+    width: 75px;
+    height: 75px;
+    background-color: aqua;
+}
+
+.box::after {
+    display: block;
+    content: 'bye';
+    width: 75px;
+    height: 75px;
+    background-color: burlywood;
+}
+
+
+
+
+
+
+p::first-letter {
+    font-size: 200%;
+}
+
+p::first-line {
+    background-color: thistle;
+}
+
+
+.box2 {
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+.box2::before {
+    content: attr(before);
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: aqua;
+}
+
+.box2::after {
+    display: block;
+    content: attr(after);
+    width: 25px;
+    height: 25px;
+    background-color: burlywood;
+}
