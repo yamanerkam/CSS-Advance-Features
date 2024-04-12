@@ -1,0 +1,42 @@
+div>span>h1 {
+    background-color: aqua;
+}
+
+
+span {
+    background-color: rgb(71, 71, 71);
+}
+
+h2~p {
+    background-color: blueviolet;
+}
+
+div+p {
+    background-color: rgb(197, 59, 59);
+}
+
+p:not(.three):not(.four) {
+    font-size: 30px;
+}
+
+input:not(:checked) {
+    margin: 50px;
+}
+
+input[type="text"] {
+    background-color: chocolate;
+}
+
+
+textarea[data-margin] {
+    margin: 100px;
+}
+
+
+textarea[data-margin*="hd"] {
+    background-color: darkgreen;
+}
+
+textarea[data-margin^="ag"] {
+    background-color: purple;
+}

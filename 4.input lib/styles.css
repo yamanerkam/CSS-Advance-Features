@@ -15,7 +15,7 @@ input {
 
 .input:focus {
   --border-color: #0AF;
-  box-shadow: var(--box-shadow) #0AF;
+  box-shadow: var(--box-shadow) var(--border-color);
 }
 
 .input.input-success {
